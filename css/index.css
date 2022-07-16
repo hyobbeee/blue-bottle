@@ -1,0 +1,246 @@
+/* main 관련 내용 */
+
+.mainbanner {
+    height: 653px;
+    background: url(../img/main/mainbanner1.png) no-repeat center / cover;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+.store {
+    height: 655px;
+    background-color: #f8f6e5;
+}
+
+.store {
+    height: 655px;
+    background-color: #f8f6e5;
+    position: relative;
+}
+
+.store .right-bg {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 655px;
+    width: 50%;
+    background-color: #f3f2e9;
+}
+
+.store .inner {
+    z-index: 1000;
+    position: relative;
+}
+
+.store .store-left {
+    width: 50%;
+    height: 655px;
+    float: left;
+    padding-top: 69px;
+    box-sizing: border-box;/* 이거 안하면 간격늘어남? 전체값에 포함되는 건가*/
+    padding-left: 37px;
+}
+.store .store-left h2{font-size: 40px; line-height: 45px; color: #464646; font-weight: 700; font-family: 'Philosopher', serif; margin-bottom:40px;}
+
+.store .store-left p:nth-of-type(1) {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 1.88;
+    text-align: left;
+    color: #333;
+}
+.store .store-left p:nth-of-type(2){
+    font-size: 18px;
+    line-height: 1.17;
+    text-align: left;
+    color: #666;
+    margin-top: 29px;
+    margin-bottom: 57px;
+}
+.store .store-left p:nth-of-type(3){
+    font-size: 21px;
+    line-height: 1.74;
+    text-align: left;
+    color: #666;
+}
+
+.store .store-left .new-store-more {
+    display: block;
+    width: 220px;
+    height: 60px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #465a4f;
+    margin-left: 146px;
+    margin-top: 79px;
+}
+
+.store .store-right {
+    width: 50%;
+    height: 655px;
+    float: left;
+    padding-left: 58px;
+    padding-top: 40px;
+    box-sizing: border-box; /* 내몸이밀림 */
+}
+.store .store-right .slide-control {
+    margin-top: 46px;
+    margin-left: 15px;
+}
+
+.store .store-right .slide-control button {
+    float: left;
+    text-indent: -9999px;
+    font-size: 0;
+    width: 49px;
+    height: 15px;
+}
+
+.store .store-right .slide-prev-btn {
+    background: url(../img/main/prev-arrow.png) no-repeat;
+    margin-right: 44px;
+}
+
+.store .store-right .slide-next-btn {
+    background: url(../img/main/next-arrow.png) no-repeat;
+}
+.contents-area .new-item{
+    background-color: #fffef2;
+}
+
+.contents-area .new-item .new1 li{
+    float: left;
+    padding-bottom: 92px;
+}
+
+.contents-area .new-item .inner h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.13;
+    text-align: center;
+    color: #464646;
+    font-family: Philosopher;
+    padding-top: 130px;
+    padding-bottom: 55px;
+}
+
+.contents-area .new-item .inner ul li{
+    margin-left: 21px;
+}
+
+.contents-area .new-item .inner ul li p{
+    padding-top: 17px;
+    font-size: 14.5px;
+    line-height: 1.45;
+    text-align: center;
+    color: #333;
+}
+
+.contents-area .new-item .inner ul li p:nth-of-type(2){
+    font-size: 13.5px;
+    line-height: 2.81;
+    text-align: center;
+    color: #666;
+}
+.product-best {
+    background-color: #465a4f;   
+}
+.product-best h2{
+    font-family: Philosopher;
+    font-size: 40px;
+    font-weight: bold;
+    line-height: 1.13;
+    text-align: center;
+    color: #fffffa;
+    padding-top: 109px;
+    padding-bottom: 59px;
+}
+
+.product-best li{
+    float:left;
+    margin-left: 27px;
+    padding-bottom: 95px;
+}
+
+.product-best li p{
+    font-size: 18px;
+    line-height: 2.5;
+    text-align: center;
+    color: #fffef2;
+}
+
+.product-best li p:nth-child(3){
+    font-size: 15px;
+    /* border: 3px solid red; */
+}
+.product-different{
+    background-color: #fffef2    ;
+}
+.product-different h2 {
+    font-family: Philosopher;
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.5;
+    text-align: center;
+    color: #464646;
+    padding-top:79px;
+    padding-bottom: 62px;
+}
+.product-different li {
+    float:left;
+    padding-left: 84px;
+    padding-bottom: 82px;
+}
+
+.product-different li p{
+    padding-top: 55px;
+    font-size: 16px;
+    line-height: 1.75;
+    text-align: center;
+    color: #666;
+}
+
+.sns {
+    background-color: #fffef2    ;
+}
+
+.sns .inner h2{
+    font-family: Philosopher;
+    font-size: 53px;
+    line-height: 0.85;
+    text-align: center;
+    color: #464646;
+    padding-top: 193px;
+    padding-bottom: 66.2px;
+}
+
+.sns .inner ul li{
+    float: left;
+    padding-left: 16px;
+}
+
+.sns .inner ul{
+    padding:40px;
+}
+.sns .inner ul li p{
+font-size: 24px;
+line-height: 1.88;
+text-align: center;
+color: #333;
+padding-top: 31.7px;
+padding-bottom: 109px;
+}
+
+.comment {
+    background-color: #85918a    ;
+}
+.comment h1{
+    font-size: 77px;
+    font-weight: 500;
+    line-height: 1.44;
+    text-align: center;
+    color: #fff;
+}
